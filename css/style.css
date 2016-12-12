@@ -1,0 +1,425 @@
+@font-face {font-family: "Edmondsans";
+    src: url("//db.onlinewebfonts.com/t/12cc1fc37fc2f0a97ab4360efa4994f2.eot");
+    src: url("//db.onlinewebfonts.com/t/12cc1fc37fc2f0a97ab4360efa4994f2.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/12cc1fc37fc2f0a97ab4360efa4994f2.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/12cc1fc37fc2f0a97ab4360efa4994f2.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/12cc1fc37fc2f0a97ab4360efa4994f2.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/12cc1fc37fc2f0a97ab4360efa4994f2.svg#Edmondsans") format("svg");
+}
+@font-face {font-family: "Edmondsans";
+    src: url("//db.onlinewebfonts.com/t/4a3a6523c2e50bc2a8de4445564c1cc1.eot");
+    src: url("//db.onlinewebfonts.com/t/4a3a6523c2e50bc2a8de4445564c1cc1.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4a3a6523c2e50bc2a8de4445564c1cc1.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/4a3a6523c2e50bc2a8de4445564c1cc1.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/4a3a6523c2e50bc2a8de4445564c1cc1.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/4a3a6523c2e50bc2a8de4445564c1cc1.svg#Edmondsans") format("svg");
+}
+
+
+body,html{
+	background-color: #fff;
+	color:#a8a9a7;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+a{
+	text-decoration: none;
+	color: #a7a8a8;;
+}
+a:hover{
+	color:#35ba90;
+	transition:.3s;
+}
+.padding-0{	
+	padding: 0 !important;
+}
+.img-responsive{
+	display: block;
+  	max-width: 100%;
+  	height: auto;
+}
+/*=========HEADER=======*/
+.main-header{
+	box-sizing:border-box;
+	background: rgba(0,0,0,1);
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(87,87,87,0.87) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(87,87,87,0.87)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(87,87,87,0.87) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(87,87,87,0.87) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(87,87,87,0.87) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(87,87,87,0.87) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#575757', GradientType=0 );
+	height: 70px;
+	position: relative;
+	
+}
+.intro{
+	font-size: 1.25rem;
+	padding: 3.372% 15px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: lighter;
+}
+.header-menu>li{
+	display: inline-block;
+	font-weight: bold;
+	font-size: .75rem;
+	padding: 23px 35px 22px 0px;
+	position: relative;
+}
+
+.header-menu a{
+	color: #a7a8a8;
+}
+.header-menu a:hover{
+	color:#35ba90;
+}
+.submenu{
+	background-color: #d5d5d5;
+	display: none;
+	position: absolute;
+	padding: 0;
+	width: 100%;
+	z-index:999;
+}
+.submenu li{
+	border-bottom: 1px #929292 solid;
+	list-style-type: none;
+	padding: 5%;
+}
+.submenu li:last-child{
+	border:none;
+}
+.logo{
+	position: absolute;
+	z-index: 9999;
+}
+/*=================INTRO===========*/
+.intro-column p{
+	font-size: 13px;
+	margin: 0;
+}
+.intro-column{
+	margin: 0 0 10px;
+}
+.intro-column h3{
+	color:#000;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 6% 0%;
+	margin: 0;
+}
+/*================SLIDER========*/
+.bxslider{
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+.bx-wrapper .bx-viewport{
+	background-color: rgb(168, 169, 167);
+	box-shadow: none;
+	border: 0px;
+
+}
+.bx-wrapper img{
+	margin: 0 auto;
+}
+.slider-img-container>.active{
+	display: block;
+	z-index: 12;
+}
+.arrow{
+	background-color: #000;
+	bottom: 45%; 
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 2%;
+	padding:1%;
+	z-index: 9999;
+}
+.arrow.right{
+	left: 95%;		
+}
+.arrow.left{
+	right: 95%;
+}
+.slider-caption{
+	color: #fff;
+	font-weight: lighter;
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+}
+ .first{
+	background-color: #000;
+	margin-bottom: .3%;
+	text-transform: uppercase;
+	padding: .425% 1%;
+	font-size: 1.5rem;
+	display: block;
+		
+}
+ .second{
+	background-color: #000;
+	font-size: 1.25rem;
+	padding: .425% 1%;
+	bottom: 14%;
+}
+
+.post-date{
+	border-bottom: 1px grey solid;
+	padding: 10% 31.7% 10% 0%;
+	}
+.like-date p{
+	text-align: center;
+}
+.like{
+	color:#df9d9d;
+	padding: 20px 0;
+	font-weight: 400;
+}
+.date{
+	border-bottom: grey 1px solid;
+	padding: 20px 0 15px;
+}
+.date p{
+	margin:0;
+}
+.date p:first-child{
+	color:#000;
+	font-weight: 700;
+	font-size: 1.8rem;
+}
+.services{
+	border-bottom: 1px grey solid;
+	padding-bottom: 60px;
+}
+.like-date{
+	float: left;
+	text-align: center;
+	width: 14%;
+}
+
+.post-text{
+	padding-left: 20px;
+	border-top: grey 1px solid;
+	color: #a8a9a7;
+	font-size: .8rem;
+}
+.post-text__title{
+	color:#3f3f3f;
+	font-family: "Edmondsans Bold";
+	font-size: .86rem;
+	text-transform: uppercase;
+}
+.post-image{
+	padding: 0px  0%  4.55% 4.55%;
+}
+.col-lg-7.post-area{
+	padding: 0% 0% 0% 0%;
+} 
+.post-area{
+	border-left: grey 1px solid;
+	
+}
+.post-area h3{
+	font-size: 14px;
+}
+.post-area p{
+	font-size: 13px;
+}
+.col-lg-1.post-column{
+	padding-right: 0;
+} 
+.card-info{
+	width: 86%;
+	float: right;
+	min-height: 320px;
+	border-left: grey 1px solid;
+}
+.posts-section{
+	padding-bottom: 60px;
+	border-bottom: 1px grey solid;
+}
+.posts-text{
+	padding:4.066% 0 3.967% 0;
+}
+.posts-text h3{
+	color:#000;
+	font-family: "Edmondsans Bold";
+}
+.post-tag{
+	color:#73c8a9;
+	font-size: .75rem;
+	font-family:"Edmondsans Regular";
+	padding:4.535%;
+}
+.our-work {
+	font-size: 17px;
+	padding-bottom: 4.046%;
+}
+.work-top-section{
+	padding: 2.7% 0;
+}
+.work-top-section h3{
+	color:#000;
+	font-weight: bold;
+	font-size: 1.22rem;
+}
+/*==================TABS=============*/
+.tab input[type='radio'] {
+  	display: none;   
+}
+
+.tab input[type='radio']:checked+label{
+	cursor: pointer;
+	color: #73c8a9;
+}
+
+ .tab-content{
+	display: none;
+	padding-top: 20px;
+	font-size: .78rem;
+}
+.tab> label{
+	border-right: 1px grey solid;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding:1.3333% 3.3333%;
+}
+.tab>label:hover{
+	color:#73c8a9;	
+}
+.tab>label:nth-of-type(1){
+	margin-left: 14.5%;
+}
+.tab>label:nth-of-type(4){
+	border:none;
+}
+
+.tab>input[type='radio']:nth-of-type(1):checked~.tab-content:nth-of-type(1),
+.tab>input[type='radio']:nth-of-type(2):checked~.tab-content:nth-of-type(2),
+.tab>input[type='radio']:nth-of-type(3):checked~.tab-content:nth-of-type(3),
+.tab>input[type='radio']:nth-of-type(4):checked~.tab-content:nth-of-type(4){
+	display: block;
+}
+
+.tab>.tab-content{
+	font-size: 13px;
+
+	border-top: 1px solid grey;
+	border-bottom: none;
+	min-height: 200px;
+}
+/*================FOOTER=============*/
+footer{
+	background-color: #2c2c2c;
+}
+.footer-column-title{
+	color:#35ba90;
+	font-weight: bold;
+	font-size: .78rem;
+	text-transform: uppercase;
+}
+.footer-column{
+	color: #bebebe;
+	list-style-type: none;
+	font-size: .78rem;
+	padding: 3.966% 15px;
+	line-height: 1.5em;
+}
+.footer-column p{
+	padding-bottom: 40px;
+}
+.footer-column ul{
+	padding-left:0;
+}
+.footer-column li{
+	list-style-type: none;
+	border-bottom: 1px #494949 solid;
+	padding:  7.1% 0;
+}
+.footer-column li:last-child{
+	border-bottom: none;
+}
+.footer-column p{
+	color: #bebebe;
+	font-size: 13px;
+}
+
+/*=============MOBILE============*/
+
+@media(min-width:350px) and (max-width:767px){
+	.services .intro-column {
+		width: 350px;
+		margin: 0 auto;
+	}
+}
+@media(max-width:767px){
+	.menu{
+		left: 0;
+		text-align: center;
+		padding: 0 5px;
+		position: absolute;
+		z-index: 9999;
+		display: none;
+		}
+	.header-menu>li{
+		display: block;
+		background-color: #404347;	
+		border-bottom: grey 1px solid;
+		padding: 0;
+		min-height: 50px;	
+	}
+	.header-menu>li>a{
+		display: block;
+		padding: 10px;
+	}
+	.submenu{
+		position: relative;
+	}
+
+
+}
+/*Hover для dropdown меню с запросом, ибо в мобильном меню hover не нужен*/
+@media(min-width:768px){
+	.header-menu li:hover .submenu{
+	display: block;
+	transition:.3s;
+}
+}
+.mobile-button{
+	cursor: pointer;
+	height: 100%;	
+	width: 35px;
+	background: url("../images/mobile-menu-icon.png") no-repeat;
+	background-position: center center;
+	background-size: 35px 35px;
+	transition: .3s;
+}
+.mobile-close{
+	background: url("../images/close.png") no-repeat;
+	background-position: center center;
+	background-size: 35px 35px;
+}
+@media(max-width:768px){
+	body{
+		font-size: 14px;
+	}
+	.slider-caption{
+		font-size: 1rem;
+		left: 10%;
+	}
+	 .first{
+		bottom: 27%;
+	}
+}
