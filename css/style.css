@@ -405,7 +405,9 @@ footer{
 	}
 }
 @media (min-width:320px) and (max-width:380px){
-	font-size: .66rem;
+	.tab>label{
+		font-size: .66rem;
+	}
 }
 /*Hover для dropdown меню с запросом, ибо в мобильном меню hover не нужен*/
 @media(min-width:768px){
