@@ -299,7 +299,7 @@ a:hover{
 .tab>label:hover{
 	color:#73c8a9;	
 }
-.tab>label:first-child{
+.tab>label:first-of-type{
 	margin-left: 14.5%;
 }
 .tab>label:nth-of-type(4){
@@ -397,16 +397,16 @@ footer{
 	.submenu{
 		position: relative;
 	}
-	.tab>label:first-child{
-		margin-left: .5%;
+	.tab>label:first-of-type{
+		margin-left: 0;
 	}
 	.tab>label{
 		font-size: .86rem;
 	}
 }
-@media (min-width:320px) and (max-width:380px){
+@media (min-width:320px) and (max-width:415px){
 	.tab>label{
-		font-size: .66rem;
+		font-size: .64rem;
 	}
 }
 /*Hover для dropdown меню с запросом, ибо в мобильном меню hover не нужен*/
