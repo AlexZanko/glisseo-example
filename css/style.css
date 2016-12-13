@@ -365,6 +365,16 @@ footer{
 	}
 }
 @media(max-width:767px){
+	body{
+		font-size: 14px;
+	}
+	.slider-caption{
+		font-size: 1rem;
+		left: 10%;
+	}
+	 .first{
+		bottom: 27%;
+	}
 	.menu{
 		left: 0;
 		text-align: center;
@@ -387,7 +397,10 @@ footer{
 	.submenu{
 		position: relative;
 	}
-
+	.tab>label:nth-of-type(1){
+		font-size: 12px;
+		margin-left: .5%;
+	}
 
 }
 /*Hover для dropdown меню с запросом, ибо в мобильном меню hover не нужен*/
@@ -410,20 +423,4 @@ footer{
 	background: url("../images/close.png") no-repeat;
 	background-position: center center;
 	background-size: 35px 35px;
-}
-@media(max-width:768px){
-	body{
-		font-size: 14px;
-	}
-	.slider-caption{
-		font-size: 1rem;
-		left: 10%;
-	}
-	 .first{
-		bottom: 27%;
-	}
-	.tab>label:nth-of-type(1){
-		font-size: 12px;
-		margin-left: .5%;
-	}
 }
