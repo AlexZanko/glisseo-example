@@ -397,10 +397,10 @@ footer{
 	.submenu{
 		position: relative;
 	}
-	.tab>label:nth-of-type(1){
+	.tab>label:first-child{
 		margin-left: .5%;
 	}
-	.tab>label:nth-of-type(1){
+	.tab>label{
 		font-size: 12px;
 	}
 }
