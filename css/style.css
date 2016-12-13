@@ -422,4 +422,8 @@ footer{
 	 .first{
 		bottom: 27%;
 	}
+	.tab>label:nth-of-type(1){
+		font-size: 12px;
+		margin-left: .5%;
+	}
 }
