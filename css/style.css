@@ -398,10 +398,11 @@ footer{
 		position: relative;
 	}
 	.tab>label:nth-of-type(1){
-		font-size: 12px;
 		margin-left: .5%;
 	}
-
+	.tab>label:nth-of-type(1){
+		font-size: 12px;
+	}
 }
 /*Hover для dropdown меню с запросом, ибо в мобильном меню hover не нужен*/
 @media(min-width:768px){
